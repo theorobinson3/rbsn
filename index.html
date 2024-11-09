@@ -1,7 +1,166 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello.</h1>
-    <p>This page is still in progress. Sorry!</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theodore Robinson CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        header p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        header a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        .summary {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .job p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        /* Added gap between CISV and NHS sections */
+        .job + .job {
+            margin-top: 20px;
+        }
+
+        /* Simple 2-column layout for skills */
+        .skills ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            padding: 0;
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Theodore Robinson</h1>
+            <p>East Riding of Yorkshire, United Kingdom</p>
+            <p>Email: <a href="mailto:theo@rbsn.work">theo@rbsn.work</a> | Phone: +44 07954 157426</p>
+        </header>
+
+        <div class="summary">
+            <p>A university graduate with a background in Economics, and experience in public and non-profit sectors, seeking a role in project management to build upon a strong foundation of skills.</p>
+        </div>
+
+        <section class="education">
+            <h2>Education</h2>
+            <h3>University of St. Andrews</h3>
+            <p>MA. Economics and Management (September 2021 – Exp. June 2025)</p>
+            <ul>
+                <li>Provisional grade of 76%, with a predicted classification of 2:1.</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>CISV Hull and East Riding - Treasurer</h3>
+                <p><em>December 2021 – November 2024</em></p>
+                <ul>
+                    <li>Responsible for financial oversight of a local charity chapter within an international organization.</li>
+                    <li>Designed, wrote and presented budgets, policies, pricing models, and stakeholder reports.</li>
+                    <li>Liaised with stakeholders at local, national, and international levels.</li>
+                    <li>Oversaw the transition towards standardized practices, and the implenetation of new digital platforms.</li>
+                    <li>Wrote funding bids to enable access to greater funding.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>NHS Humber Teaching Trust - Corporate Placement</h3>
+                <p><em>July 2023</em></p>
+                <ul>
+                    <li>Designed a process to optimize staff utilization, reducing agency expenditure.</li>
+                    <li>Assisted the deputy director in various accounting tasks, including budget adjustments of trust facilities.</li>
+                    <li>Developed an understanding of public sector funding structures and organizational management.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Advanced Excel and Microsoft Office Suite proficiency.</li>
+                <li>Quick learner of new concepts and practices.</li>
+                <li>Effective and established communication and interpersonal skills.</li>
+                <li>Experience in policy document planning and writing.</li>
+                <li>Reliability in team environments with proven stakeholder management.</li>
+                <li>Microsoft Project Management & Business Analyst Professional Certificates.</li>
+            </ul>
+        </section>
+    </div>
+</body>
 </html>
